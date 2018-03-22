@@ -10,7 +10,7 @@ function destructivelyAppendKitten(name) {
 }
 
 function destructivelyPrependKitten(name) {
-  return kittens.unpush(name);
+  return kittens.unpush(name)
 }
 
 function destructivelyRemoveLastKitten() {
